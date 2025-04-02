@@ -3,7 +3,8 @@
 %   Copyright (C) 2004-2012 Per-Olof Persson. See COPYRIGHT.TXT for details.
 
 rand('state',1); % Always the same results
-set(gcf,'rend','z');
+%set(gcf,'rend','z');
+set(gcf, 'renderer', 'opengl');
 
 fstats=@(p,t) fprintf('%d nodes, %d elements, min quality %.2f\n', ...
                       size(p,1),size(t,1),min(simpqual(p,t)));
