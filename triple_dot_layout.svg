@@ -1,0 +1,16 @@
+
+<svg width="300" height="150" xmlns="http://www.w3.org/2000/svg">
+  <!-- Reservoirs -->
+  <rect id="Reservoir_Left" x="0" y="50" width="30" height="50" fill="#cccccc"/>
+  <rect id="Reservoir_Right" x="270" y="50" width="30" height="50" fill="#cccccc"/>
+
+  <!-- Barrier Gates -->
+  <rect id="Barrier_Left" x="60" y="40" width="10" height="70" fill="#ff0000"/>
+  <rect id="Barrier_Center" x="145" y="40" width="10" height="70" fill="#ff0000"/>
+  <rect id="Barrier_Right" x="230" y="40" width="10" height="70" fill="#ff0000"/>
+
+  <!-- Plunger Gates -->
+  <rect id="Plunger_Left" x="80" y="30" width="30" height="90" fill="#0000ff"/>
+  <rect id="Plunger_Center" x="160" y="30" width="30" height="90" fill="#0000ff"/>
+  <rect id="Plunger_Right" x="240" y="30" width="30" height="90" fill="#0000ff"/>
+</svg>
